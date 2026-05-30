@@ -1,0 +1,5 @@
+# wave-certify — code owners
+* @wave-av/streaming-team
+/cmd/      @wave-av/streaming-team
+/internal/ @wave-av/streaming-team
+/.github/  @wave-av/streaming-team
