@@ -7,7 +7,7 @@
   "foundationPin": "v1",
   "maintainers": [{ "team": "hardware" }],
   "exposes": {
-    "cli": [{ "binary": "wave-certify", "subcommands": ["check", "report", "ci"] }]
+    "cli": [{ "binary": "wave-certify", "subcommands": ["check", "submit", "version"] }]
   },
   "consumes": {
     "foundationFrameworks": ["frameworks/protocol-plane", "frameworks/platform-registry"]
