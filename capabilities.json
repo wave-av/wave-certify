@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1",
+  "repo": "wave-av/wave-certify",
+  "version": "0.1.0",
+  "lifecycle": "alpha",
+  "planeLayer": 4,
+  "foundationPin": "v1",
+  "maintainers": [{ "team": "hardware" }],
+  "exposes": {
+    "cli": [{ "binary": "wave-certify", "subcommands": ["check", "submit", "version"] }]
+  },
+  "consumes": {
+    "foundationFrameworks": ["frameworks/protocol-plane", "frameworks/platform-registry"]
+  },
+  "tags": ["hardware", "public", "certification", "cli", "protocol-plane-layer-4"]
+}
