@@ -1,0 +1,24 @@
+threat-model.md
+  s_5f27fa5b8237cd::t_0bf23635414ab5 38
+  s_5f27fa5b8237cd::t_2269158ba5161c 18
+  s_5f27fa5b8237cd::t_3e2a7ac1315bf3 5
+  s_5f27fa5b8237cd::t_a19b1b533d078c 54
+.coderabbit.yaml
+  s_5f27fa5b8237cd::t_c597d7f879d808 2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.6",
+  "base_commit_sha": "15207afd3259d92b1dcd7a64670cdbba483b66df",
+  "prompts": {},
+  "sessions": {
+    "s_5f27fa5b8237cd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "15ec0bf8-6164-4260-bae1-00c610d449bb",
+        "model": "claude-opus-4-8"
+      },
+      "human_author": "Jake Fineman <jakefineman@gmail.com>"
+    }
+  }
+}
