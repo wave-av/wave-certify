@@ -110,7 +110,12 @@ reviews:
       enabled: true
       packages:
         - "ast-grep-essentials"
-    github_checks:
+    # Same silent-misspelling class as osvScanner above: the schema key is `github-checks`,
+    # hyphenated. This read `github_checks` (underscore) since the file was written, so the
+    # key was silently ignored and GitHub-check ingestion (with its 900s timeout) never ran.
+    # Verified against the same live v2 schema dump (2026-08-06): `github-checks` is present,
+    # `github_checks` is absent.
+    github-checks:
       enabled: true
       timeout_ms: 900000
 
