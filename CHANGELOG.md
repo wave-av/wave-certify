@@ -31,3 +31,9 @@ All notable changes to this project are documented here. The format is based on
   Contributors on forks are affected: a maintainer's `/review` on a fork PR is
   now declined with a warning rather than silently running.
   (wave-av/wave-foundation-public#73)
+
+### Security
+
+- Builds select Go toolchain go1.26.10, which includes the crypto/x509
+  stdlib security fixes released on 2026-10-19. The language version stays
+  at 1.26.
